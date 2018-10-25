@@ -1,0 +1,24 @@
+{
+  "name": "seleniumtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rh",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.7.0",
+    "save-dev": "^2.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "wdio-allure-reporter": "^0.8.2",
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "selenium-standalone": "^6.15.3",
+    "wdio-mocha-framework": "^0.6.3"
+  }
+}
